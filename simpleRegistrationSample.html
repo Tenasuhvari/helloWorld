@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kayıt Formu</title>
+	<meta charset="utf-8">
+<style>
+	form { width: 350px; }
+	label { float: left; width: 150px; }
+	input[type=text,password] { float: left; width: 150px; }
+	.clear { clear: both; height: 0; line-height: 0; }
+	.floatright { float: right; }
+</style>
+<style>
+	form { width: 450px; }
+	label { float: left; width: 250px; }
+	input[type=radio] { float: left; width: 250px; }
+	.clear { clear: both; height: 0; line-height: 0; }
+	.floatright { float: right; }
+</style>
+</head>
+<body bgcolor="C9F3F8">
+<form name="kayitform">
+											<h3>Giriş</h3>
+<label for="tckimlik">T.C. Kimlik No:</label>   		<input type="text"placeholder="TC yazınız" name="kimlikno">
+<label for="soyad">Soyadı</label>						<input type="text"placeholder="Soyad yazınız"name="soyadi">
+<label for="ad">Adı</label>								<input type="text" placeholder="Ad yazınız" name="adi">
+<label for="userad">Kullanıcı Adı:</label>				<input type="text"placeholder="Kullanıcı adı yazınız" name="kullanici">
+<label for="sifre">Şifre</label>                        <input type="password"placeholder="Şifre yazınız" name="sifre">
+
+<center>
+<hr size="2"width="1920"align="center"color="C8D0F8">
+
+
+	<div style="width:750px;height:640px;border:1px solid #030;background-color:#BAF4FA;text-align: center;"><br>
+	<h3>Cinsiyet:</h3>
+	Erkek    <input type="checkbox"value="erkek" name="cinsiyet"><br>
+	Kadın	 <input type="checkbox"value="kadin" name="cinsiyet"><br>
+	Bilmem   <input type="checkbox"value="bilmem" name="cinsiyet"><br>
+	Diğer    <input type="checkbox"value="diger" name="cinsiyet"><br>
+
+
+<h3>Mesleğiniz:</h3>
+<label for="lutfen">Lütfen Seçiniz</label>		<input type="radio" name="durum"value="1"checked="on"><br>
+<label for="bilisim">Bilişim</label>			<input type="radio" name="durum"value="2"><br>
+<label for="elektrik">Elektrik</label>			<input type="radio" name="durum"value="3"><br>
+<label for="kimya">Kimya</label>				<input type="radio" name="durum"value="4"><br>
+<label for="gida">Gıda</label>					<input type="radio" name="durum"value="5"><br>
+<label for="adt">ADT</label>					<input type="radio" name="durum"value="6"><br>
+
+<h3>Özgeçmiş:</h3>
+	<textarea name="ozgecmis" cols="45" rows="10"style="text-align:center;border:6px"></textarea><br>
+
+
+<h3>Hobiler:</h3>
+	Kitap Okumak<input type="checkbox" name="kitap">
+	Tarih Araştırmak<input type="checkbox" name="tarih">
+	Oyun Oynamak<input type="checkbox" name="oyun">
+	Şarkı Dinlemek<input type="checkbox" name="sarki">
+
+
+<input type="submit" value="Kaydet" align="right">
+
+
+	</div>
+</form>
+<hr size="2"width="1920"align="center"color="C8D0F8">
+<h5 align="left"style="font-family:verdana;">Tenasuhvâri</h5>
+
+</center>
+</body>
+</html>
